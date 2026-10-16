@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shanu Verma | MCA Student | Data Analyst</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0a0e1a;color:#e2e8f0;font-family:-apple-system,system-ui,sans-serif;line-height:1.6}
+.container{max-width:900px;margin:0 auto;padding:20px}
+header{text-align:center;padding:60px 20px}
+h1{font-size:2.5rem;margin-bottom:10px} h1 span{color:#3b82f6}
+.tag{color:#94a3b8;font-size:1.1rem;margin:15px 0}
+.btn{display:inline-block;background:#3b82f6;color:#fff;padding:12px 24px;border-radius:8px;text-decoration:none;margin:10px;font-weight:600}
+.card{background:#131a2e;border:1px solid #1e293b;border-radius:16px;padding:24px;margin:20px 0}
+.card h3{color:#fff;font-size:1.3rem;margin-bottom:8px}
+.badge{background:#1e293b;color:#60a5fa;padding:4px 10px;border-radius:20px;font-size:0.8rem;margin-right:6px}
+a{color:#60a5fa;text-decoration:none}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:20px} @media(max-width:600px){.grid{grid-template-columns:1fr} h1{font-size:1.8rem}}
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+<h1>Hi, I'm <span>Shanu Verma</span> </h1>
+<p class="tag">MCA Student from Jharkhand | Python | Power BI | Data Analytics</p>
+<p>Building data-driven solutions with Python and visualization</p>
+<div style="margin-top:25px">
+<a class="btn" href="https://github.com/shanuverma8209-crypto">GitHub</a>
+<a class="btn" style="background:#131a2e;border:1px solid #3b82f6" href="https://www.linkedin.com/">LinkedIn</a>
+</div>
+</header>
+
+<div class="grid">
+<div class="card">
+<h3> Python Expense Analyzer</h3>
+<p style="color:#94a3b8;margin:10px 0">Analyzed 500+ transactions, automated expense categorization</p>
+<p><span class="badge">Python</span><span class="badge">Pandas</span></p>
+<p style="margin-top:12px"><a href="https://github.com/shanuverma8209-crypto/python-expense-analyzer">View Project →</a></p>
+</div>
+<div class="card">
+<h3>Power BI Sales Dashboard</h3>
+<p style="color:#94a3b8;margin:10px 0">₹3.9Cr revenue analysis with interactive KPIs & trends</p>
+<p><span class="badge">Power BI</span><span class="badge">DAX</span></p>
+<p style="margin-top:12px"><a href="#">View Dashboard →</a></p>
+</div>
+</div>
+
+<div class="card">
+<h3> Skills</h3>
+<p style="margin-top:12px"><span class="badge">Python</span><span class="badge">Power BI</span><span class="badge">SQL</span><span class="badge">Excel</span><span class="badge">Data Analytics</span></p>
+</div>
+
+<div class="card" style="text-align:center">
+<h3> Contact</h3>
+<p style="margin-top:10px">Daltonganj, Jharkhand, India</p>
+<p>Open for internships & freelance projects</p>
+</div>
+
+<p style="text-align:center;color:#475569;margin:30px 0">© 2026 Shanu Verma - Built with all</p>
+</div>
+</body>
+</html>
